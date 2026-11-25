@@ -405,7 +405,7 @@ Se realiza una petición POST para registrar un nuevo usuario. En el cuerpo de l
 
 Si se intenta registrar un usuario utilizando un nombre de usuario o correo electrónico que ya existe en la base de datos, la API detecta la duplicidad y devuelve un error adecuado sin crear un nuevo registro.
 
-![Create user duplicated](images/bruno-bruno-create-user-duplicated.png)
+![Create user duplicated](images/bruno-create-user-duplicated.png)
 
 Si se envían datos que no cumplen las validaciones definidas, por ejemplo, un nombre de usuario demasiado corto o un correo electrónico con un formato incorrecto, Pydantic detecta los datos inválidos y que la API rechaza la petición.
 
@@ -471,7 +471,7 @@ Si se intenta añadir un nombre de streamer que no existe en Twitch, la aplicaci
 
 Se realiza una petición GET para consultar los streamers favoritos asociados a un usuario. Se comprueba que la API devuelve los favoritos almacenados y que estos pertenecen al usuario indicado.
 
-![List user's favorites](images/bruno-list-favoritest.png)
+![List user's favorites](images/bruno-list-favorites.png)
 
 ### 5.2.3. Eliminar favorito
 
